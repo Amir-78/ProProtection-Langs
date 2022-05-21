@@ -611,5 +611,44 @@
             "user_joinned_discord": "<:pp75:814595283295928330> Discorda Ta Girdi:",
             "user_joinned_server": "<:pp75:814595283295928330> Sunucuya Ta Girdi:"
         }
-    }
+    },
+    "commands": {
+      
+        "en": {
+          "anti-all": "Enable / Disable All Protection Settings .",
+          "anti-bot": "All new bots that enter your server will be kicked out .",
+          "anti-link": "Remove Hacking Links .",
+          "anti-nuke": "Anyone who tries to hack your server will be punished .",
+          "anti-perms": "Protects roles with high permissions .",
+          "auto-restore": "If this is enabled , any channel or role deleted will be returned.",
+          "limit": "Set min/max limit for protections to act .",
+          "logs": "Change protection logs settings .",
+          "protections": "Show server protections informations .",
+          "trust": "Add trusted member .",
+          "trusted": "Show trusted members .",
+          "addem": "Add emoji your server ! .",
+          "ban": "Ban .",
+          "bots": "Show bots inside yur server .",
+          "clear": "Clear messages .",
+          "hide": "Hide channel/s .",
+          "kick": "Kick member ! .",
+          "lang": "Change bot language on your server .",
+          "lock": "Lock channel/s .",
+          "unlock": "Unlock channel/s .",
+          "show": "Show channel/s .",
+          "status": "Replies Bot and Server status .",
+          "activities": "Use bot activities .",
+          "avatar": "Show user avatar .",
+          "help": "Show bot commands .",
+          "invite": "Get bot invite link .",
+          "ping": "Replies with bot ping .",
+          "prime": "Subscribe to the prime version .",
+          "user": "Show user info ."
+
+
+
+          
+        }
+  
+      }
 }
