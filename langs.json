@@ -1,5 +1,40 @@
 {
     "prime": {
+        "fr": {
+            "to_subs": "** Pour vous abonner à la version Prime et obtenir les fonctionnalités suivantes, ** [Cliquez ici] ({link}})",
+            "features": [
+                {
+                    "name": "🛡️ Les membres de confiance",
+                    "value": "Lorsque vous vous abonnez à la version Prime, vous pouvez ajouter jusqu'à 8 membres de confiance sur votre serveur",
+                    "inline": true
+                },
+                {
+                    "name": "💎 Rôle spécial",
+                    "value": "Vous aurez un rôle spécial dans notre serveur pour les abonnés Prime uniquement.",
+                    "inline": true
+                },
+                {
+                    "name": "🔏 Modifier les limites",
+                    "value": "Vous pourrez définir vos propres limites par exemple: limites pour supprimer les rôles, supprimer les canaux, interdire les membres, etc.",
+                    "inline": false
+                },
+                {
+                    "name": "🔧 Restauration automatique",
+                    "value": "Vous pourrez activer la fonction de restauration automatique, où tout rôle ou canal supprimé sera retourné comme auparavant.",
+                    "inline": false
+                },
+                {
+                    "name": "⭐ De nombreuses fonctionnalités futures",
+                    "value": "Nous ajouterons beaucoup plus de fonctionnalités à l'avenir à cette version en fonction de vos suggestions.",
+                    "inline": false
+                },
+                {
+                    "name": "❤️ nous a soutenus",
+                    "value": "En vous abonnant à la version Prime, vous nous avez soutenus et nous avez encouragés à continuer à vous en fournir plus ❤️.",
+                    "inline": false
+                }
+            ]
+        },
         "ar": {
             "to_subs": "**للاشتراك في النسخة البرايم والحصول على الميزات التالية, **[إضغط هنا]({link}})",
             "features": [
@@ -35,9 +70,9 @@
                 }
             ]
         },
-		"tr" : {
-		 "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
-		 "features": [
+        "tr": {
+            "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
+            "features": [
                 {
                     "name": "🛡️ Güvenilir Üyeler",
                     "value": "Prime sürüme abone olduğunuzda, sunucunuza 8 adede kadar güvenilir üye ekleyebilirsiniz.",
@@ -69,8 +104,7 @@
                     "inline": false
                 }
             ]
-		 
-		},
+        },
         "en": {
             "to_subs": "**To subscribe to the prime version and get the following features,** [Click Here]({link}})",
             "features": [
@@ -108,7 +142,16 @@
         }
     },
     "errors": {
-	  
+        "fr": {
+            "cmd_err": ": x: - Erreur lors de l'exécution de cette commande!",
+            "cmd_err_code": ": x: - Quelque chose s'est mal passé, accédez au serveur de support technique et envoyez le code suivant: `Code d'erreur: {error_code}`",
+            "cmd_prime_only": "** Cette commande est pour la version Prime uniquement, pour s'abonner à la version Prime et obtenir les fonctionnalités suivantes, ** [cliquez ici] ({prime_link})",
+            "cmd_owner_only": "Cette commande est réservée au propriétaire du serveur.",
+            "cmd_owner_or_trusted_only": "Cette commande concerne uniquement le propriétaire du serveur et les membres de confiance.",
+            "cmd_no_permissions": "Vous n'avez pas d'autorisations `{autorisations}` pour utiliser cette commande!",
+            "cmd_voice_connection_required": ": X: Vous devez être dans un canal vocal pour utiliser cette commande!",
+            "cannot_find_member": ": X: Je ne trouve pas ce membre"
+        },
         "ar": {
             "cmd_err": ":x: - خطأ أثناء تشغيل هذا الأمر!",
             "cmd_err_code": ":x: - حدث خطأ ما ، انتقل إلى سيرفر الدعم الفني وأرسل الرمز التالي: `ERROR CODE: {error_code}`",
@@ -129,7 +172,7 @@
             "cmd_voice_connection_required": ":x: You must be in an voice channel to use this command!",
             "cannot_find_member": ":x: I can't find this member"
         },
-		    "tr": {
+        "tr": {
             "cmd_err": ":x: - Bu komut çalıştırılırken hata oluştu!",
             "cmd_err_code": ":x: - Bir şeyler ters gitti, teknik destek sunucusuna gidin ve aşağıdaki kodu gönderin:`HATA KODU: {error_code}`",
             "cmd_prime_only": "**Bu komut sadece prime versiyon içindir, Prime versiyona abone olmak ve aşağıdaki özellikleri almak için,** [Buaraya Tikla]({prime_link})",
@@ -141,17 +184,173 @@
         }
     },
     "buttons": {
+        "fr": {
+            "click_here": "Cliquez ici!"
+        },
         "ar": {
             "click_here": "إضغط هنا!"
         },
         "en": {
             "click_here": "Click here!"
         },
-		     "tr": {
+        "tr": {
             "click_here": "Buraya Tikla!"
         }
     },
     "replies": {
+        "fr": {
+            "activities_created": ": white_check_mark: Votre lien d'invitation d'activité a été créé avec succès! \n\n 🔗 Inviter Link: https://discord.gg/{invite_code}",
+            "punish_antinuke_reason": "Proprotection: protection anti-nuke!",
+            "antinuke_punished_message": "✅ {Member} essayait de nouer votre serveur, mais je l'ai puni avec succès!",
+            "antnuke_cant_punish_message": "⚠️ {member} essayant de nouer votre serveur, mais je n'ai pas d'autorisations pour agir :(",
+            "punish_antibot_reason": "Proprotection: protection anti-bots!",
+            "antibot_punished_message": "✅ {member} est entré sur le serveur, mais je l'ai puni avec succès!",
+            "antibot_cant_punish_message": "⚠️ {member} est entré sur le serveur, mais je n'ai pas d'autorisations pour agir :(",
+            "punish_antiperms_reason": "Proprotection: protection anti-perms!",
+            "antiperms_punished_message": "✅ {member} a ajouté des autorisations élevées à {target}, mais je l'ai puni avec succès et supprimé les autorisations!",
+            "antiperms_cant_punish_message": "⚠️ {member} a ajouté des autorisations élevées à {target}, mais je n'ai pas d'autorisations pour agir :(",
+            "antiperms_cant_punish_message2": "⚠️ {member} a ajouté des autorisations élevées à {target}, j'ai supprimé les autorisations, mais je n'ai pas les autorisations pour le punir :(",
+            "antiperms_punished_message2": "✅ {member} a ajouté des autorisations élevées à {target}, mais j'ai supprimé avec succès les autorisations!",
+            "punish_antilinks_reason": "Proprotection: protection anti-links!",
+            "antilinks_punished_message": "✅ {member} Envoyez un lien dangereux {target}, mais je l'ai puni avec succès et supprimé le message!",
+            "antilinks_cant_punish_message": "⚠️ {member} Envoyez un lien dangereux {target}, j'ai supprimé le lien mais je ne peux pas le punir :(",
+            "autorestore_reason": "Proprotection: Système automatique-restauration!",
+            "autorestore_log_message_succ": "✅ {target} a été supprimé, mais je l'ai restauré exactement tel quel.",
+            "addem_error": ": x: une erreur s'est produite pour ajouter l'emoji",
+            "addem_error_max_15": ": X: Vous ne pouvez ajouter que 15 emojis à la fois",
+            "addem_added": "{emojis} ** a été ajouté au serveur! **",
+            "ban_no_permissions_to_ban": ": X: Je n'ai pas assez d'autorisations pour interdire ce membre",
+            "ban_you_dont_have_permissions_to_ban": ": X: Vous n'avez pas assez d'autorisations pour interdire ce membre",
+            "ban_banned": "✈️ {member} a été interdit du serveur",
+            "kick_no_permissions_to_kick": ": X: Je n'ai pas assez d'autorisations pour donner un coup de pied à ce membre",
+            "kick_you_dont_have_permissions_to_kick": ": X: Vous n'avez pas assez d'autorisations pour donner un coup de pied à ce membre",
+            "kick_kicked": "🛩️ {member} a été lancé du serveur",
+            "lock_locked_everyone": ": white_check_mark: {channel} est maintenant verrouillé pour tout le monde",
+            "lock_locked_role": ": white_check_mark: {channel} est maintenant verrouillé pour {role}",
+            "lock_all_locked_everyone": ": white_check_mark: Tous les canaux sont maintenant verrouillés pour tout le monde",
+            "lock_all_locked_role": ": white_check_mark: Tous les canaux sont maintenant verrouillés pour {role}",
+            "lock_text_locked_everyone": ": white_check_mark: Tous les canaux de texte sont maintenant verrouillés pour tout le monde",
+            "lock_text_locked_role": ": white_check_mark: Tous les canaux de texte sont maintenant verrouillés pour {role}",
+            "lock_voice_locked_everyone": ": white_check_mark: Tous les canaux vocaux sont maintenant verrouillés pour tout le monde",
+            "lock_voice_locked_role": ": white_check_mark: Tous les canaux vocaux sont maintenant verrouillés pour {role}",
+            "lock_cat_locked_everyone": ": white_check_mark: toutes les catégories sont maintenant verrouillées pour tout le monde",
+            "lock_cat_locked_role": ": white_check_mark: Toutes les catégories sont maintenant verrouillées pour {role}",
+            "lock_stage_locked_everyone": ": white_check_mark: Tous les canaux de scène sont maintenant verrouillés pour tout le monde",
+            "lock_stage_locked_role": ": white_check_mark: tous les canaux de scène sont maintenant verrouillés pour {role}",
+            "bots_no_bots": ": X: Aucun autre robot trouvé sur votre serveur",
+            "hide_hidden_everyone": ": white_check_mark: {channel} est maintenant invisible pour tout le monde",
+            "hide_hidden_role": ": white_check_mark: {channel} est désormais invisible à {role}",
+            "hide_all_hidden_everyone": ": white_check_mark: Tous les canaux sont désormais invisibles pour tout le monde",
+            "hide_all_hidden_role": ": white_check_mark: Tous les canaux sont désormais invisibles à {role}",
+            "hide_text_hidden_everyone": ": white_check_mark: Tous les canaux de texte sont désormais invisibles pour tout le monde",
+            "hide_text_hidden_role": ": white_check_mark: Tous les canaux de texte sont désormais invisibles à {role}",
+            "hide_voice_hidden_everyone": ": white_check_mark: Tous les canaux vocaux sont désormais invisibles pour tout le monde",
+            "hide_voice_hidden_role": ": white_check_mark: Tous les canaux vocaux sont désormais invisibles à {role}",
+            "hide_cat_hidden_everyone": ": white_check_mark: Toutes les catégories sont désormais invisibles pour tout le monde",
+            "hide_cat_hidden_role": ": white_check_mark: Toutes les catégories sont désormais invisibles à {role}",
+            "hide_stage_hidden_everyone": ": white_check_mark: Tous les canaux de scène sont désormais invisibles pour tout le monde",
+            "hide_stage_hidden_role": ": white_check_mark: Tous les canaux de scène sont désormais invisibles à {role}",
+            "show_showed_everyone": ": white_check_mark: {channel} est désormais visible pour tout le monde",
+            "show_showed_role": ": white_check_mark: {channel} est désormais visible par {role}",
+            "show_all_showed_everyone": ": white_check_mark: Tous les canaux sont désormais visibles pour tout le monde",
+            "show_all_showed_role": ": white_check_mark: Tous les canaux sont désormais visibles par {role}",
+            "show_text_showed_everyone": ": white_check_mark: Tous les canaux de texte sont désormais visibles pour tout le monde",
+            "show_text_showed_role": ": white_check_mark: Tous les canaux de texte sont désormais visibles par {role}",
+            "show_voice_showed_everyone": ": white_check_mark: Tous les canaux vocaux sont désormais visibles pour tout le monde",
+            "show_voice_showed_role": ": white_check_mark: Tous les canaux vocaux sont désormais visibles par {role}",
+            "show_cat_showed_everyone": ": white_check_mark: toutes les catégories sont désormais visibles pour tout le monde",
+            "show_cat_showed_role": ": white_check_mark: Toutes les catégories sont désormais visibles par {role}",
+            "show_stage_showed_everyone": ": white_check_mark: Tous les canaux de scène sont désormais visibles pour tout le monde",
+            "show_stage_showed_role": ": white_check_mark: Tous les canaux de scène sont désormais visibles par {role}",
+            "status_subscription": "🌟 Abonnement:",
+            "status_protection": "🛡️ Protection:",
+            "status_ex_date": "⏳ Date d'expiration de l'abonnement:",
+            "status_infinity": ": Infinity: Infinity",
+            "status_left": "la gauche",
+            "unlock_unlocked_everyone": ": white_check_mark: {channel} est maintenant déverrouillé pour tout le monde",
+            "unlock_unlocked_role": ": white_check_mark: {channel} est maintenant déverrouillé pour {role}",
+            "unlock_all_unlocked_everyone": ": white_check_mark: Tous les canaux sont maintenant déverrouillés pour tout le monde",
+            "unlock_all_unlocked_role": ": white_check_mark: Tous les canaux sont désormais déverrouillés pour {role}",
+            "unlock_text_unlocked_everyone": ": white_check_mark: Tous les canaux de texte sont maintenant déverrouillés pour tout le monde",
+            "unlock_text_unlocked_role": ": white_check_mark: Tous les canaux de texte sont désormais déverrouillés pour {role}",
+            "unlock_voice_unlocked_everyone": ": white_check_mark: Tous les canaux vocaux sont maintenant déverrouillés pour tout le monde",
+            "unlock_voice_unlocked_role": ": white_check_mark: Tous les canaux vocaux sont désormais déverrouillés pour {role}",
+            "unlock_cat_unlocked_everyone": ": white_check_mark: toutes les catégories sont maintenant déverrouillées pour tout le monde",
+            "unlock_cat_unlocked_role": ": white_check_mark: Toutes les catégories sont désormais déverrouillées pour {role}",
+            "unlock_stage_unlocked_everyone": ": white_check_mark: Tous les canaux de scène sont maintenant déverrouillés pour tout le monde",
+            "unlock_stage_unlocked_role": ": white_check_mark: Tous les canaux de scène sont maintenant déverrouillés pour {role}",
+            "antiall_enabled": "**: white_check_mark: les protections ont été activées avec succès! **",
+            "antiall_disabled": "**: white_check_mark: les protections ont été désactivées avec succès! **",
+            "antibots_enabled": "**: white_check_mark: la protection anti-bots a été activée avec succès! **",
+            "antibots_disabled": "**: white_check_mark: la protection anti-bots a été désactivée avec succès! **",
+            "antilinks_enabled": "**: white_check_mark: la protection anti-link a été activée avec succès! **",
+            "antilinks_disabled": "**: white_check_mark: la protection anti-link a été désactivée avec succès! **",
+            "antinuke_enabled": "**: white_check_mark: la protection anti-nuke a été activée avec succès! **",
+            "antinuke_disabled": "**: white_check_mark: la protection anti-nuke a été désactivée avec succès! **",
+            "antiperms_enabled": "**: white_check_mark: la protection anti-perms a été activée avec succès! **",
+            "antiperms_disabled": "**: white_check_mark: la protection anti-perms a été désactivée avec succès! **",
+            "antibots_kick_verified": "- Kick Vérifié bots:",
+            "punishment": "- Châtiment:",
+            "punish_ban": "Interdire",
+            "punish_kick": "Donner un coup",
+            "punish_rperms": "Supprimer les autorisations",
+            "punish_rroles": "Supprimer les rôles",
+            "punish_timeout": "Temps libre",
+            "punish_delete": "Supprimer uniquement",
+            "true": "Vrai",
+            "false": "Faux",
+            "limit_updated": "**: white_check_mark: la limite de protection a été mise à jour avec succès! **",
+            "limit_protection": "🔏 Protection:",
+            "limit_min": "Le minimum:",
+            "limit_max": "Maximum:",
+            "limit_drole": "Suppression de rôle",
+            "limit_crole": "Création de rôle",
+            "limit_dchannel": "Suppression du canal",
+            "limit_cchannel": "Création du canal",
+            "limit_kmembers": "Botter",
+            "limit_bmembers": "Interdire les membres",
+            "logs_enabled": "**: white_check_mark: les journaux de protections ont été activés avec succès! **",
+            "logs_disabled": "**: white_check_mark: les journaux de protection La protection a été désactivée avec succès! **",
+            "logs_channel": "- Canal:",
+            "protections_info": "🛡️ - Voici les informations de protection pour votre serveur:",
+            "protections_antibots": "🤖 Anti-bots",
+            "protections_antinuke": "🔒 Anti-Nuke",
+            "protections_antilinks": "🔗 Anti-liens",
+            "protections_antiperms": "🔏 Anti-perms",
+            "protections_autorestore": "🔧 Auto-Restore",
+            "protections_logs": "📰 Journaux",
+            "protections_enabled": "Activé:",
+            "protections_crole_limit": "- Rôle Créer (limite):",
+            "protections_dcrole_limit": "- Rôle Supprimer (limite):",
+            "protections_cchannel_limit": "- canal create (limite):",
+            "protections_dchannel_limit": "- Channel Delete (limite):",
+            "protections_kmembers_limit": "- Kick Members (Limit):",
+            "protections_bmembers_limit": "- Interdire les membres (limite):",
+            "trust_cant_add_yourself": ": X: Vous ne pouvez pas vous ajouter en tant que membre de confiance!",
+            "trust_removed": ": white_check_mark: {member} a été supprimé de la liste des membres de confiance!",
+            "trust_max_free": ": X: Vous avez atteint le nombre maximum de membres de confiance ({max}) pour la version gratuite! \n\n Pour vous abonner à la version Prime et obtenir plus de fonctionnalités [cliquez ici] ({link})",
+            "trust_max_prime": ": X: Vous avez atteint le nombre maximum de membres de confiance ({max}) pour la version principale!",
+            "trust_added": ": white_check_mark: {member} a été ajouté en tant que membre de confiance!",
+            "trusted_list": "Ceci est la liste des membres de confiance de votre serveur: \n\n {list} \n\n - Total TrustEd: {total}",
+            "activites_with_friends": "avec vos amis",
+            "activites_watch": "Regarder",
+            "activites_play": "Joue",
+            "activites_choose": "** Choisissez une activité: **",
+            "activites_not_selected": "Aucune activité sélectionnée",
+            "invite_thankyou": "**Merci de nous avoir choisi! <A: pp654: 963109165633519636> **",
+            "invite_add_me": "Invitez-moi d'ici!",
+            "invite_join_support": "Rejoignez le serveur d'assistance!",
+            "lang_not_selected": "Aucune langue sélectionnée",
+            "lang_select_lang": "**Choisir la langue!**",
+            "clear_cleared": ": white_check_mark: {size} Les messages ont été effacés!",
+            "help_description": "Ceci est la liste des commandes pour le bot",
+            "help_protection_commands": "🛡️ Commandes de protection:",
+            "help_admins_commands": "🛠️ Commandes de gestion:",
+            "help_public_commands": "🌐 Commandes publiques:",
+            "user_discord_tag": "<: pp987: 963110100216713246> Discord Tag:",
+            "user_joinned_discord": "<: pp75: 814595283295928330> a rejoint Discord à:",
+            "user_joinned_server": "<: pp75: 814595283295928330> serveur joint à:"
+        },
         "ar": {
             "activities_created": ":white_check_mark: تم إنشاء رابط دعوة النشاط الخاص بك بنجاح! \n \n:link: رابط الدعوة: https://discord.gg/{invite_code}",
             "punish_antinuke_reason": "ProProtection: Anti-Nuke Protection!",
@@ -185,7 +384,7 @@
             "lock_all_locked_role": ":white_check_mark: جميع القنوات مقفلة الآن لـ {role}",
             "lock_text_locked_everyone": ":white_check_mark: جميع القنوات الكتابية مقفلة الآن للجميع",
             "lock_text_locked_role": ":white_check_mark: جميع القنوات الكتابية مقفلة الآن لـ {role}",
-            "lock_voice_locked_everyone":":white_check_mark: جميع القنوات الصوتية مقفلة الآن للجميع",
+            "lock_voice_locked_everyone": ":white_check_mark: جميع القنوات الصوتية مقفلة الآن للجميع",
             "lock_voice_locked_role": ":white_check_mark: جميع القنوات الصوتية مقفلة الآن لـ {role}",
             "lock_cat_locked_everyone": ":white_check_mark: جميع الكاتيجوري مقفلة الآن للجميع",
             "lock_cat_locked_role": ":white_check_mark: جميع الفئات كاتيجوري الآن لـ {role}",
@@ -201,7 +400,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: جميع القنوات الصوتية مخفية الآن للجميع",
             "hide_voice_hidden_role": ":white_check_mark: جميع القنوات الصوتية مخفية الآن لـ {role}",
             "hide_cat_hidden_everyone": ":white_check_mark: جميع الكاتيجوري مخفية الآن للجميع",
-            "hide_cat_hidden_role":":white_check_mark: جميع الكاتيجوري مخفية الآن لـ {role}",
+            "hide_cat_hidden_role": ":white_check_mark: جميع الكاتيجوري مخفية الآن لـ {role}",
             "hide_stage_hidden_everyone": ":white_check_mark: جميع قنوات المسرح مخفية للجميع الآن",
             "hide_stage_hidden_role": ":white_check_mark: جميع قنوات المسرح مخفية الآن لـ {role}",
             "show_showed_everyone": ":white_check_mark: {channel} تظهر للجميع الآن",
@@ -338,7 +537,7 @@
             "lock_all_locked_role": ":white_check_mark: All channels are now locked for {role}",
             "lock_text_locked_everyone": ":white_check_mark: All text channels are now locked for everyone",
             "lock_text_locked_role": ":white_check_mark: All text channels are now locked for {role}",
-            "lock_voice_locked_everyone":":white_check_mark: All voice channels are now locked for everyone",
+            "lock_voice_locked_everyone": ":white_check_mark: All voice channels are now locked for everyone",
             "lock_voice_locked_role": ":white_check_mark: All voice channels are now locked for {role}",
             "lock_cat_locked_everyone": ":white_check_mark: All categories are now locked for everyone",
             "lock_cat_locked_role": ":white_check_mark: All categories are now locked for {role}",
@@ -354,7 +553,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: All voice channels are now invisible to everyone",
             "hide_voice_hidden_role": ":white_check_mark: All voice channels are now invisible to {role}",
             "hide_cat_hidden_everyone": ":white_check_mark: All categories are now invisible to everyone",
-            "hide_cat_hidden_role":":white_check_mark: All categories are now invisible to {role}",
+            "hide_cat_hidden_role": ":white_check_mark: All categories are now invisible to {role}",
             "hide_stage_hidden_everyone": ":white_check_mark: All stage channels are now invisible to everyone",
             "hide_stage_hidden_role": ":white_check_mark: All stage channels are now invisible to {role}",
             "show_showed_everyone": ":white_check_mark: {channel} is now visible to everyone",
@@ -458,7 +657,7 @@
             "user_joinned_discord": "<:pp75:814595283295928330> Joinned Discord at:",
             "user_joinned_server": "<:pp75:814595283295928330> Joinned Server at:"
         },
-		   "tr": {
+        "tr": {
             "activities_created": ":white_check_mark: Etkinlik davet bağlantınız başarıyla oluşturuldu!\n\n🔗 Davet Bağlantısı: https://discord.gg/{invite_code}",
             "punish_antinuke_reason": "ProProtection: Anti-Nuke Protection!",
             "antinuke_punished_message": "✅ {member} sunucunuzu hacklemeye çalışıyordu, ama onu başarıyla cezalandırdım!",
@@ -491,7 +690,7 @@
             "lock_all_locked_role": ":white_check_mark: Tüm kanallar şu an {role} için kilitlendi ",
             "lock_text_locked_everyone": ":white_check_mark: Tüm metin kanalları artık herkes için kilitlendi",
             "lock_text_locked_role": ":white_check_mark: Tüm metin kanalları şu an {role} için kilitlendi ",
-            "lock_voice_locked_everyone":":white_check_mark: Tüm ses kanalları artık herkes için kilitlendi ",
+            "lock_voice_locked_everyone": ":white_check_mark: Tüm ses kanalları artık herkes için kilitlendi ",
             "lock_voice_locked_role": ":white_check_mark: Tüm ses kanalları şu an {role} için kilitlendi ",
             "lock_cat_locked_everyone": ":white_check_mark: Tüm kategoriler artık herkes için kilitlendi ",
             "lock_cat_locked_role": ":white_check_mark: şu an {role}  için Tüm kategoriler artık kilitli {role}",
@@ -507,7 +706,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: Tüm ses kanalları artık herkese görünmez ",
             "hide_voice_hidden_role": ":white_check_mark: Tüm ses kanalları artık {role} için görünmez ",
             "hide_cat_hidden_everyone": ":white_check_mark :Tüm kategoriler artık herkese görünmez",
-            "hide_cat_hidden_role":":white_check_mark:  Tüm Kategoriler artık {role} için görünmez",
+            "hide_cat_hidden_role": ":white_check_mark:  Tüm Kategoriler artık {role} için görünmez",
             "hide_stage_hidden_everyone": ":white_check_mark: Tüm sahne kanalları artık herkese görünmez",
             "hide_stage_hidden_role": ":white_check_mark: Tüm Sahne kanalları artık {role} için görünmez",
             "show_showed_everyone": ":white_check_mark: {channel} artık herkes tarafından görülebilir",
@@ -610,6 +809,101 @@
             "user_discord_tag": "<:pp987:963110100216713246> Discord Etiket:",
             "user_joinned_discord": "<:pp75:814595283295928330> Discorda Ta Girdi:",
             "user_joinned_server": "<:pp75:814595283295928330> Sunucuya Ta Girdi:"
+        }
+    },
+    "commands": {
+        "en": {
+            "anti-all": "Enable / Disable All Protection Settings.",
+            "anti-bot": "All new bots that enter your server will be kicked out.",
+            "anti-link": "Remove Hacking Links.",
+            "anti-nuke": "Anyone who tries to hack your server will be punished.",
+            "anti-perms": "Protects roles with high permissions.",
+            "auto-restore": "If this is enabled , any channel or role deleted will be returned.",
+            "limit": "Set min/max limit for protections to act.",
+            "logs": "Change protection logs settings.",
+            "protections": "Show server protections informations.",
+            "trust": "Add trusted member.",
+            "trusted": "Show trusted members.",
+            "addem": "Add emoji your server !.",
+            "ban": "Ban member.",
+            "bots": "Show bots inside yur server.",
+            "clear": "Clear messages.",
+            "hide": "Hide channel/s.",
+            "kick": "Kick member !.",
+            "lang": "Change bot language on your server.",
+            "lock": "Lock channel/s.",
+            "unlock": "Unlock channel/s.",
+            "show": "Show channel/s.",
+            "status": "Replies Bot and Server status.",
+            "activities": "Use bot activities.",
+            "avatar": "Show user avatar.",
+            "help": "Show bot commands.",
+            "invite": "Get bot invite link.",
+            "ping": "Replies with bot ping.",
+            "prime": "Subscribe to the prime version.",
+            "user": "Show user info."
+        },
+        "ar": {
+            "anti-all": "تمكين / تعطيل كافة إعدادات الحماية .",
+            "anti-bot": "سيتم طرد جميع الروبوتات الجديدة التي تدخل خادمك .",
+            "anti-link": "إزالة روابط التهكير .",
+            "anti-nuke": "سيتم معاقبة أي شخص يحاول اختراق الخادم الخاص بك .",
+            "anti-perms": "يحمي الرولات بأذونات عالية .",
+            "auto-restore": "إذا تم تمكين هذا ، فسيتم إرجاع أي قناة أو رول تم حذفه.",
+            "limit": "تعيين الحد الأدنى / الأقصى للحماية للعمل .",
+            "logs": "تغيير إعدادات سجلات الحماية .",
+            "protections": "إظهار معلومات حماية الخادم .",
+            "trust": "أضف عضوًا موثوقًا به .",
+            "trusted": "إظهار الأعضاء الموثوق بهم .",
+            "addem": "إضافة ايموجي الى  الخادم الخاص بك ! .",
+            "ban": "حظر عضو.",
+            "bots": "عرض البوتات داخل خادمك.",
+            "clear": "حذف الرسائل.",
+            "hide": "إخفاء روم / الرومات.",
+            "kick": "طرد عضو ! .",
+            "lang": "تغيير لغة البوت في خادمك .",
+            "lock": "قفل الروم/ات .",
+            "unlock": "فتح الروم/ات .",
+            "show": "اظهار الروم/ات .",
+            "status": "الرد على حالة البوت والخادم .",
+            "activities": "استخدم أنشطة البوت .",
+            "avatar": "اظهار افتار يوزر .",
+            "help": "اظهار اوامر البوت .",
+            "invite": "الحصول على رابط دعوة البوت .",
+            "ping": "الرد بسرعة الاتصال بالدسكورد .",
+            "prime": "الاشتراك بنسخة ال prime .",
+            "user": "اظهار معلومات اليوزر ."
+        },
+        "tr": {
+            "anti-all": "Tüm Koruma Ayarlarını Etkinleştir / Devre Dışı Bırak.",
+            "anti-bot": "Sunucunuza giren tüm yeni botlar atılacak.",
+            "anti-link": "Tehlikeli Bağlantılarını Kaldır.",
+            "anti-nuke": "Sunucunuzu hacklemeye çalışan herkes cezalandırılacaktır.",
+            "anti-perms": "Yüksek izinlere sahip rolleri korur.",
+            "auto-restore": "Bu etkinleştirilirse, silinen herhangi bir kanal veya rol döndürülür.",
+            "limit": "Korumaların harekete geçmesi için minimum/maks limitini ayarlayın.",
+            "logs": "Koruma Denetim Kayitini ayarlarını değiştir.",
+            "protections": "Sunucu koruma bilgilerini göster.",
+            "trust": "Güvenilir üye ekle.",
+            "trusted": "Güvenilir üyeleri göster.",
+            "addem": "Sunucunuza emoji ekleyin !.",
+            "ban": "Üyeyi yasakla.",
+            "bots": "Sunucunuzun içindeki botları gösterin.",
+            "clear": "Mesajları silme.",
+            "hide": "Kanalları gizle.",
+            "kick": "Üyeyi At !.",
+            "lang": "Sunucunuzdaki bot dilini değiştirin.",
+            "lock": "Kanalları kilitle.",
+            "unlock": "Kanalların kilidini aç.",
+            "show": "Kanalları göster.",
+            "status": "Yanıtlar Bot ve Sunucu durumu.",
+            "activities": "Bot etkinliklerini kullan.",
+            "avatar": "Kullanıcı avatarını göster.",
+            "help": "Bot komutlarını göster.",
+            "invite": "Bot davet bağlantısını al.",
+            "ping": "Bot ping ile yanıtlar.",
+            "prime": "Prime sürümüne abone olun .",
+            "user": "Kullanıcı bilgilerini göster."
         }
     }
 }
