@@ -71,6 +71,49 @@
             ]
 		 
 		},
+	    
+        "de": {
+            "to_subs": "Um die Prime-Version zu abonnieren und die folgenden Funktionen zu erhalten, [hier drückenا]({link}})",
+            "features": [
+                {
+                    "name": "🛡️ vertrauenswürdige Mitglieder",
+                    "value": "Wenn Sie die Prime-Version abonnieren, können Sie bis zu 8 vertrauenswürdige Mitglieder auf Ihrem Server hinzufügen
+",
+                    "inline": true
+                },
+                {
+                    "name": "besonderer Rang
+💎 ",
+                    "value": "Sie haben einen speziellen Rang auf unserem Server nur für Prime-Abonnenten.",
+                    "inline": true
+                },
+                {
+                    "name": "Grenzanpassung🔏 ",
+"Sie können zum Beispiel Ihre eigenen Limits festlegen: Limits für das Löschen von Rängen, das Löschen von ROMs, das Sperren von Mitgliedern usw.",
+                    "inline": false
+                },
+                {
+                    "name": "🔧 automatische Wiederherstellung",
+                    "value": "Sie können die automatische Wiederherstellungsfunktion aktivieren, da alle gelöschten Ränge oder ROMs wie zuvor wiederhergestellt werden",
+                    "inline": false
+                },
+                {
+                    "name": "⭐ Viele zukünftige Funktionen
+",
+                    "value": "Basierend auf Ihren Vorschlägen werden wir dieser Version in Zukunft weitere Funktionen hinzufügen
+.",
+                    "inline": false
+                },
+                {
+                    "name": "❤️ unterstütze uns
+",
+                    "value": "Indem Sie die Prime-Version abonniert haben, haben Sie uns möglicherweise geholfen und uns ermutigt, Ihnen weiterhin mehr zur Verfügung zu stellen
+ ❤️.",
+                    "inline": false
+                }
+            ]
+        }, 
+
         "en": {
             "to_subs": "**To subscribe to the prime version and get the following features,** [Click Here]({link}})",
             "features": [
@@ -140,6 +183,21 @@
             "cannot_find_member": ":x: bu üyeyi bulamıyorum"
         }
     },
+	        "de": {
+            "cmd_err": ":x: - Fehler beim Ausführen dieses Befehls",
+            "cmd_err_code": ":x: - Etwas ist schief gelaufen, gehen Sie zum technischen Support-Server und senden Sie den folgenden Code
+: `ERROR CODE: {error_code}`",
+            "cmd_prime_only": "**Dieser Befehl gilt nur für die Prime-Version, um die Prime-Version zu abonnieren und die folgenden Funktionen zu erhalten
+ ، ** [hier drücken
+]({prime_link})",
+            "cmd_owner_only": "Dies ist nur für den Serverbesitzer.",
+            "cmd_owner_or_trusted_only": "Dies ist nur für den Serverbesitzer und vertrauenswürdige Mitglieder.",
+            "cmd_no_permissions": "Sie sind nicht berechtigt, diesen Befehl zu verwenden `{permissions}` ",
+            "cmd_voice_connection_required": ":x: Sie müssen sich in einem Audio-ROM befinden, um diesen Befehl verwenden zu können
+",
+            "cannot_find_member": ":x: Ich kann dieses Mitglied nicht finden
+"
+
     "buttons": {
         "ar": {
             "click_here": "إضغط هنا!"
@@ -151,6 +209,9 @@
             "click_here": "Buraya Tikla!"
         }
     },
+"de": {
+	"click_here": "hier drücken!"
+};
     "replies": {
         "ar": {
             "activities_created": ":white_check_mark: تم إنشاء رابط دعوة النشاط الخاص بك بنجاح! \n \n:link: رابط الدعوة: https://discord.gg/{invite_code}",
@@ -305,6 +366,51 @@
             "user_joinned_discord": "<:pp75:814595283295928330> إنضم الى الديسكورد في:",
             "user_joinned_server": "<:pp75:814595283295928330> إنضم الى السيرفر في:"
         },
+	            "ar": {
+            "activities_created": ":white_check_mark: Einladungslink erfolgreich erstellt
+ \n \n:link: Einladungslink: https://discord.gg/{invite_code}",
+            "punish_antinuke_reason": "ProProtection: Anti-Nuke Protection!",
+            "antinuke_punished_message": ":white_check_mark: Er versucht, Ihren Server zu hacken {member} aber ich konnte ihn erfolgreich bestrafen ",
+            "antnuke_cant_punish_message": ":warning: Ich versuche, Ihren Server zu hacken, {member} aber ich habe nicht genügend Berechtigungen, um zu handeln:(",
+            "punish_antibot_reason": "ProProtection: Anti-Bots Protection!",
+            "antibot_punished_message": ":white_check_mark: {member} hat den Server betreten, aber es ist mir gelungen, ihn zu bestrafen",
+            "antibot_cant_punish_message": ":warning: {member} ist angemeldet, aber ich habe nicht genügend Berechtigungen, um zu handeln:(",
+            "punish_antiperms_reason": "ProProtection: Anti-Perms Protection!",
+            "antiperms_punished_message": ":white_check_mark: {member} hat {target} hohe Kräfte hinzugefügt, aber ich habe es erfolgreich bestraft und die Kräfte entfernt!",
+            "antiperms_cant_punish_message": ":warning: {member} hat {target} hohe Berechtigungen hinzugefügt, aber ich habe nicht genügend Berechtigungen, um zu handeln :(",
+            "antiperms_cant_punish_message2": ":warning: {member} hat {target} hohe Kräfte hinzugefügt, ich habe die Kräfte entfernt, aber ich habe nicht genug Kräfte, um es zu bestrafen :(",
+            "antiperms_punished_message2": ":white_check_mark: {member} hat {target} hohe Berechtigungen hinzugefügt, aber ich habe die Berechtigungen erfolgreich entfernt!",
+            "punish_antilinks_reason": "ProProtection: Anti-Links Protection!",
+            "antilinks_punished_message": ":white_check_mark: {member} hat einen gefährlichen Link {target} gesendet, aber ich habe ihn erfolgreich bestraft und die Nachricht entfernt!",
+            "antilinks_cant_punish_message": ":warning: {member} hat einen gefährlichen Link {target} gesendet, ich habe den Link gelöscht, aber ich kann ihn nicht bestrafen :(",
+            "autorestore_reason": "ProProtection: Auto-Restore System!",
+            "autorestore_log_message_succ": ":white_check_mark: {target} wurde gelöscht, aber ich habe es genau so zurückbekommen, wie es war.",
+            "addem_error": ":x:Beim Hinzufügen eines Emoji ist ein Fehler aufgetreten",
+            "addem_error_max_15": ":x: Sie können nur 15 Emojis auf einmal hinzufügen",
+            "addem_added": "{emojis}** wurden dem Server hinzugefügt! 15 Emojis auf einmal **",
+            "ban_no_permissions_to_ban": ":x: Ich habe nicht die erforderlichen Berechtigungen, um diesen Benutzer zu sperren",
+            "ban_you_dont_have_permissions_to_ban": ":x: Sie haben keine ausreichende Berechtigung, um dieses Mitglied zu sperren",
+            "ban_banned": ":airplane:{member} wurde vom Server blockiert",
+            "kick_no_permissions_to_kick": ":x: Ich bin nicht berechtigt, diesen Benutzer auszuschließen
+",
+            "kick_you_dont_have_permissions_to_kick": ":x: Sie haben keine ausreichende Berechtigung, um dieses Mitglied auszuschließen",
+
+            "kick_kicked": ":airplane_small: {member} wurde vom Server gekickt",
+"lock_locked_everyone": ":white_check_mark: {Kanal} ist für alle gesperrt",
+            "lock_locked_role": ":white_check_mark: {role} ist jetzt für {channel} gesperrt",
+            "lock_all_locked_everyone": ":white_check_mark: Alle Kanäle sind jetzt für alle gesperrt",
+            "lock_all_locked_role": ":white_check_mark: Alle Kanäle sind jetzt für {role} gesperrt",
+            "lock_text_locked_everyone": ":white_check_mark: Alle Skriptkanäle sind jetzt für alle gesperrt",
+"lock_text_locked_role": ":white_check_mark: Alle Skriptkanäle sind jetzt für {Rolle} gesperrt",
+            "lock_voice_locked_everyone":":white_check_mark: Alle Sprachkanäle sind jetzt für alle gesperrt",
+            "lock_voice_locked_role": ":white_check_mark: Alle Sprachkanäle sind jetzt für {role} gesperrt",
+            "lock_cat_locked_everyone": ":white_check_mark: Alle Kategorien sind jetzt für alle freigeschaltet",
+            "lock_cat_locked_role": ":white_check_mark: Alle Kategorien sind jetzt für {Rolle} kategorisiert",
+            "lock_stage_locked_everyone": ":white_check_mark: Alle Kinokanäle sind jetzt für alle gesperrt",
+            "lock_stage_locked_role": ":white_check_mark: Alle Kinokanäle sind jetzt für {role} gesperrt",
+            "bots_no_bots": ":x: Es wurden keine anderen Bots auf Ihrem Server gefunden",
+            "hide_hidden_everyone": ":white_check_mark: {channel} ist jetzt für alle unsichtbar",
+		    };
         "en": {
             "activities_created": ":white_check_mark: Your activity  invite link has been created successfully!\n\n🔗 Invite Link: https://discord.gg/{invite_code}",
             "punish_antinuke_reason": "ProProtection: Anti-Nuke Protection!",
@@ -679,9 +785,40 @@
             "ping": "الرد بسرعة الاتصال بالدسكورد .",
             "prime": "الاشتراك بنسخة ال prime .",
             "user": "اظهار معلومات اليوزر ."
+	};
+          "de": {
+„anti-all“: „Alle Sicherheitseinstellungen aktivieren/deaktivieren.“,
+            "anti-bot": "Alle neuen Bots, die Ihren Server betreten, werden rausgeschmissen.",
+            "anti-link": "Hack-Links entfernen.",
+            "anti-nuke": "Jeder, der versucht, sich in Ihren Server zu hacken, wird bestraft.",
+            "anti-perms": "Schützt Roulette mit hohen Berechtigungen.",
+            "auto-restore": "Wenn dies aktiviert ist, werden alle gelöschten Kanäle oder Rollen zurückgegeben.",
+            „limit“: „Stellen Sie den minimalen/maximalen Schutz für den Betrieb ein.“,
+            "logs": "Einstellungen für Sicherheitsprotokolle ändern.",
+            "protections": "Informationen zum Serverschutz anzeigen.",
+            "trust": "Füge ein vertrauenswürdiges Mitglied hinzu.",
+"trusted": "Zeige vertrauenswürdige Mitglieder.",
+            "addem": "Füge deinem Server ein Emoji hinzu!",
+            "ban": "ein Mitglied sperren.",
+            "bots": "Zeige die Bots auf deinem Server an.",
+            "clear": "Nachrichten löschen.",
+            "hide": "roms verstecken.",
+            "kick": "Kicke ein Mitglied!",
+            "lang": "Ändere die Sprache des Bots auf deinem Server.",
+            „lock“: „ROM sperren.“,
+            „entsperren“: „entsperren Sie das ROM.“,
+            "show": "den Rum zeigen.",
+            "status": "Auf den Status des Bots und Servers antworten.",
+            "activities": "Bot-Aktivitäten verwenden.",
+"avatar": "Avatar-Benutzer anzeigen.",
+            "help": "Bot-Befehle anzeigen.",
+            "invite": "Holen Sie sich den Bot-Einladungslink.",
+            "ping": "Schnell antworten, mit Discord verbinden.",
+            "prime": "Prime-Version abonnieren.",
+            "user": "Zeige die Benutzerinformationen."
+
   
-  
-  
+
             
           },
           "tr": {
