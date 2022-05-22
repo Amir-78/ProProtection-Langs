@@ -35,9 +35,9 @@
                 }
             ]
         },
-		"tr" : {
-		 "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
-		 "features": [
+        "tr": {
+            "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
+            "features": [
                 {
                     "name": "🛡️ Güvenilir Üyeler",
                     "value": "Prime sürüme abone olduğunuzda, sunucunuza 8 adede kadar güvenilir üye ekleyebilirsiniz.",
@@ -69,8 +69,7 @@
                     "inline": false
                 }
             ]
-		 
-		},
+        },
         "en": {
             "to_subs": "**To subscribe to the prime version and get the following features,** [Click Here]({link}})",
             "features": [
@@ -108,7 +107,6 @@
         }
     },
     "errors": {
-	  
         "ar": {
             "cmd_err": ":x: - خطأ أثناء تشغيل هذا الأمر!",
             "cmd_err_code": ":x: - حدث خطأ ما ، انتقل إلى سيرفر الدعم الفني وأرسل الرمز التالي: `ERROR CODE: {error_code}`",
@@ -129,7 +127,7 @@
             "cmd_voice_connection_required": ":x: You must be in an voice channel to use this command!",
             "cannot_find_member": ":x: I can't find this member"
         },
-		    "tr": {
+        "tr": {
             "cmd_err": ":x: - Bu komut çalıştırılırken hata oluştu!",
             "cmd_err_code": ":x: - Bir şeyler ters gitti, teknik destek sunucusuna gidin ve aşağıdaki kodu gönderin:`HATA KODU: {error_code}`",
             "cmd_prime_only": "**Bu komut sadece prime versiyon içindir, Prime versiyona abone olmak ve aşağıdaki özellikleri almak için,** [Buaraya Tikla]({prime_link})",
@@ -147,7 +145,7 @@
         "en": {
             "click_here": "Click here!"
         },
-		     "tr": {
+        "tr": {
             "click_here": "Buraya Tikla!"
         }
     },
@@ -185,7 +183,7 @@
             "lock_all_locked_role": ":white_check_mark: جميع القنوات مقفلة الآن لـ {role}",
             "lock_text_locked_everyone": ":white_check_mark: جميع القنوات الكتابية مقفلة الآن للجميع",
             "lock_text_locked_role": ":white_check_mark: جميع القنوات الكتابية مقفلة الآن لـ {role}",
-            "lock_voice_locked_everyone":":white_check_mark: جميع القنوات الصوتية مقفلة الآن للجميع",
+            "lock_voice_locked_everyone": ":white_check_mark: جميع القنوات الصوتية مقفلة الآن للجميع",
             "lock_voice_locked_role": ":white_check_mark: جميع القنوات الصوتية مقفلة الآن لـ {role}",
             "lock_cat_locked_everyone": ":white_check_mark: جميع الكاتيجوري مقفلة الآن للجميع",
             "lock_cat_locked_role": ":white_check_mark: جميع الفئات كاتيجوري الآن لـ {role}",
@@ -201,7 +199,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: جميع القنوات الصوتية مخفية الآن للجميع",
             "hide_voice_hidden_role": ":white_check_mark: جميع القنوات الصوتية مخفية الآن لـ {role}",
             "hide_cat_hidden_everyone": ":white_check_mark: جميع الكاتيجوري مخفية الآن للجميع",
-            "hide_cat_hidden_role":":white_check_mark: جميع الكاتيجوري مخفية الآن لـ {role}",
+            "hide_cat_hidden_role": ":white_check_mark: جميع الكاتيجوري مخفية الآن لـ {role}",
             "hide_stage_hidden_everyone": ":white_check_mark: جميع قنوات المسرح مخفية للجميع الآن",
             "hide_stage_hidden_role": ":white_check_mark: جميع قنوات المسرح مخفية الآن لـ {role}",
             "show_showed_everyone": ":white_check_mark: {channel} تظهر للجميع الآن",
@@ -294,6 +292,7 @@
             "invite_thankyou": "**شكرا على اختيارك لنا! <a:pp654:963109165633519636>**",
             "invite_add_me": "قم بدعوتي من هنا!",
             "invite_join_support": "ادخل سيرفر الدعم الفني!",
+            "vote_me": "التصويت للبوت",
             "lang_not_selected": "لم يتم تحديد اي لغة",
             "lang_select_lang": "**إختر اللغة!**",
             "clear_cleared": ":white_check_mark: تم مسح {size} رسائل!",
@@ -338,7 +337,7 @@
             "lock_all_locked_role": ":white_check_mark: All channels are now locked for {role}",
             "lock_text_locked_everyone": ":white_check_mark: All text channels are now locked for everyone",
             "lock_text_locked_role": ":white_check_mark: All text channels are now locked for {role}",
-            "lock_voice_locked_everyone":":white_check_mark: All voice channels are now locked for everyone",
+            "lock_voice_locked_everyone": ":white_check_mark: All voice channels are now locked for everyone",
             "lock_voice_locked_role": ":white_check_mark: All voice channels are now locked for {role}",
             "lock_cat_locked_everyone": ":white_check_mark: All categories are now locked for everyone",
             "lock_cat_locked_role": ":white_check_mark: All categories are now locked for {role}",
@@ -354,7 +353,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: All voice channels are now invisible to everyone",
             "hide_voice_hidden_role": ":white_check_mark: All voice channels are now invisible to {role}",
             "hide_cat_hidden_everyone": ":white_check_mark: All categories are now invisible to everyone",
-            "hide_cat_hidden_role":":white_check_mark: All categories are now invisible to {role}",
+            "hide_cat_hidden_role": ":white_check_mark: All categories are now invisible to {role}",
             "hide_stage_hidden_everyone": ":white_check_mark: All stage channels are now invisible to everyone",
             "hide_stage_hidden_role": ":white_check_mark: All stage channels are now invisible to {role}",
             "show_showed_everyone": ":white_check_mark: {channel} is now visible to everyone",
@@ -447,6 +446,7 @@
             "invite_thankyou": "**Thank you for choosing us! <a:pp654:963109165633519636>**",
             "invite_add_me": "Invite me from here!",
             "invite_join_support": "Join support server!",
+            "vote_me": "Vote",
             "lang_not_selected": "No language selected",
             "lang_select_lang": "**Select language!**",
             "clear_cleared": ":white_check_mark: {size} messages has been cleared!",
@@ -458,7 +458,7 @@
             "user_joinned_discord": "<:pp75:814595283295928330> Joinned Discord at:",
             "user_joinned_server": "<:pp75:814595283295928330> Joinned Server at:"
         },
-		   "tr": {
+        "tr": {
             "activities_created": ":white_check_mark: Etkinlik davet bağlantınız başarıyla oluşturuldu!\n\n🔗 Davet Bağlantısı: https://discord.gg/{invite_code}",
             "punish_antinuke_reason": "ProProtection: Anti-Nuke Protection!",
             "antinuke_punished_message": "✅ {member} sunucunuzu hacklemeye çalışıyordu, ama onu başarıyla cezalandırdım!",
@@ -491,7 +491,7 @@
             "lock_all_locked_role": ":white_check_mark: Tüm kanallar şu an {role} için kilitlendi ",
             "lock_text_locked_everyone": ":white_check_mark: Tüm metin kanalları artık herkes için kilitlendi",
             "lock_text_locked_role": ":white_check_mark: Tüm metin kanalları şu an {role} için kilitlendi ",
-            "lock_voice_locked_everyone":":white_check_mark: Tüm ses kanalları artık herkes için kilitlendi ",
+            "lock_voice_locked_everyone": ":white_check_mark: Tüm ses kanalları artık herkes için kilitlendi ",
             "lock_voice_locked_role": ":white_check_mark: Tüm ses kanalları şu an {role} için kilitlendi ",
             "lock_cat_locked_everyone": ":white_check_mark: Tüm kategoriler artık herkes için kilitlendi ",
             "lock_cat_locked_role": ":white_check_mark: şu an {role}  için Tüm kategoriler artık kilitli {role}",
@@ -507,7 +507,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: Tüm ses kanalları artık herkese görünmez ",
             "hide_voice_hidden_role": ":white_check_mark: Tüm ses kanalları artık {role} için görünmez ",
             "hide_cat_hidden_everyone": ":white_check_mark :Tüm kategoriler artık herkese görünmez",
-            "hide_cat_hidden_role":":white_check_mark:  Tüm Kategoriler artık {role} için görünmez",
+            "hide_cat_hidden_role": ":white_check_mark:  Tüm Kategoriler artık {role} için görünmez",
             "hide_stage_hidden_everyone": ":white_check_mark: Tüm sahne kanalları artık herkese görünmez",
             "hide_stage_hidden_role": ":white_check_mark: Tüm Sahne kanalları artık {role} için görünmez",
             "show_showed_everyone": ":white_check_mark: {channel} artık herkes tarafından görülebilir",
@@ -600,6 +600,7 @@
             "invite_thankyou": "**Bizi tercih ettiğiniz için teşekkür ederiz ! <a:pp654:963109165633519636>**",
             "invite_add_me": "beni buradan davet et!",
             "invite_join_support": "Destek sunucusuna katılın !",
+            "vote_me": "Bot için oy verin",
             "lang_not_selected": "Dil seçilmedi ",
             "lang_select_lang": "**Dil Seçin !**",
             "clear_cleared": ":white_check_mark: {size} mesaj temizlendi!",
@@ -613,41 +614,36 @@
         }
     },
     "commands": {
-      
         "en": {
-          "anti-all": "Enable / Disable All Protection Settings.",
-          "anti-bot": "All new bots that enter your server will be kicked out.",
-          "anti-link": "Remove Hacking Links.",
-          "anti-nuke": "Anyone who tries to hack your server will be punished.",
-          "anti-perms": "Protects roles with high permissions.",
-          "auto-restore": "If this is enabled , any channel or role deleted will be returned.",
-          "limit": "Set min/max limit for protections to act.",
-          "logs": "Change protection logs settings.",
-          "protections": "Show server protections informations.",
-          "trust": "Add trusted member.",
-          "trusted": "Show trusted members.",
-          "addem": "Add emoji your server !.",
-          "ban": "Ban member.",
-          "bots": "Show bots inside yur server.",
-          "clear": "Clear messages.",
-          "hide": "Hide channel/s.",
-          "kick": "Kick member !.",
-          "lang": "Change bot language on your server.",
-          "lock": "Lock channel/s.",
-          "unlock": "Unlock channel/s.",
-          "show": "Show channel/s.",
-          "status": "Replies Bot and Server status.",
-          "activities": "Use bot activities.",
-          "avatar": "Show user avatar.",
-          "help": "Show bot commands.",
-          "invite": "Get bot invite link.",
-          "ping": "Replies with bot ping.",
-          "prime": "Subscribe to the prime version.",
-          "user": "Show user info."
-
-
-
-          
+            "anti-all": "Enable / Disable All Protection Settings.",
+            "anti-bot": "All new bots that enter your server will be kicked out.",
+            "anti-link": "Remove Hacking Links.",
+            "anti-nuke": "Anyone who tries to hack your server will be punished.",
+            "anti-perms": "Protects roles with high permissions.",
+            "auto-restore": "If this is enabled , any channel or role deleted will be returned.",
+            "limit": "Set min/max limit for protections to act.",
+            "logs": "Change protection logs settings.",
+            "protections": "Show server protections informations.",
+            "trust": "Add trusted member.",
+            "trusted": "Show trusted members.",
+            "addem": "Add emoji your server !.",
+            "ban": "Ban member.",
+            "bots": "Show bots inside yur server.",
+            "clear": "Clear messages.",
+            "hide": "Hide channel/s.",
+            "kick": "Kick member !.",
+            "lang": "Change bot language on your server.",
+            "lock": "Lock channel/s.",
+            "unlock": "Unlock channel/s.",
+            "show": "Show channel/s.",
+            "status": "Replies Bot and Server status.",
+            "activities": "Use bot activities.",
+            "avatar": "Show user avatar.",
+            "help": "Show bot commands.",
+            "invite": "Get bot invite link.",
+            "ping": "Replies with bot ping.",
+            "prime": "Subscribe to the prime version.",
+            "user": "Show user info."
         },
         "ar": {
             "anti-all": "تمكين / تعطيل كافة إعدادات الحماية .",
@@ -679,12 +675,8 @@
             "ping": "الرد بسرعة الاتصال بالدسكورد .",
             "prime": "الاشتراك بنسخة ال prime .",
             "user": "اظهار معلومات اليوزر ."
-  
-  
-  
-            
-          },
-          "tr": {
+        },
+        "tr": {
             "anti-all": "Tüm Koruma Ayarlarını Etkinleştir / Devre Dışı Bırak.",
             "anti-bot": "Sunucunuza giren tüm yeni botlar atılacak.",
             "anti-link": "Tehlikeli Bağlantılarını Kaldır.",
@@ -714,11 +706,6 @@
             "ping": "Bot ping ile yanıtlar.",
             "prime": "Prime sürümüne abone olun .",
             "user": "Kullanıcı bilgilerini göster."
-  
-  
-  
-            
-          }
-        
-      }
+        }
+    }
 }
