@@ -35,7 +35,7 @@
                 }
             ]
         },
-     "fr": {
+        "fr": {
             "to_subs": "**Pour vous abonner à la version prime et obtenir les fonctionnalités suivantes, **[Cliquez ici] ({link}})",
             "features": [
                 {
@@ -70,9 +70,6 @@
                 }
             ]
         },
-		"tr" : {
-		 "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
-		 "features": [
         "tr": {
             "to_subs": "**Prime sürüme abone olmak ve aşağıdaki özellikleri almak için,** [Buraya Tikla]({link}})",
             "features": [
@@ -373,12 +370,12 @@
             "antiperms_punished_message2": "✅ {member} a ajouté des autorisations élevées à {target}, mais j'ai réussi à supprimer les autorisations!",
             "punish_antilinks_reason": "ProProtection: Anti-Links Protection!",
             "antilinks_punished_message": "✅ {member} a envoyé un lien dangereux {target}, mais j'ai réussi à le punir et à supprimer le message!",
-            "antilinks_cant_punish_message": "⚠️ {membre} envoie un lien dangereux {cible}, j'ai supprimé le lien mais je ne peux pas le punir :(",
+            "antilinks_cant_punish_message": "⚠️ {membre} envoie un lien dangereux {target}, j'ai supprimé le lien mais je ne peux pas le punir :(",
             "autorestore_reason": "ProProtection: Auto-Restore System!",
             "autorestore_log_message_succ": "✅ {target} a été supprimé mais je l'ai récupéré exactement tel qu'il était.",
             "addem_error": ":x: Une erreur s'est produite lors de l'ajout d'un emoji",
             "addem_error_max_15": ":x: Vous ne pouvez ajouter que 15 emojis à la fois",
-            "addem_added": "{emojis}** ont été ajoutés au serveur ! **",
+            "addem_added": "{emojis}** ont été ajoutés au serveur ! **",
             "ban_no_permissions_to_ban": ":x: Je n'ai pas assez de permissions pour bannir cet utilisateur",
             "ban_you_dont_have_permissions_to_ban": ":x: Vous n'avez pas les permissions suffisantes pour bannir cet utilisateur",
             "ban_banned": "✈️ {membre} a été bloqué du serveur",
@@ -391,7 +388,7 @@
             "lock_all_locked_role": ":white_check_mark: Tous les canaux sont maintenant fermés pour {role}",
             "lock_text_locked_everyone": ":white_check_mark: Tous les canaux écrits sont désormais fermés à tous",
             "lock_text_locked_role": ":white_check_mark: Tous les canaux écrits sont maintenant fermés pour {role}",
-            "lock_voice_locked_everyone":":white_check_mark: Tous les canaux audio sont maintenant fermés à tout le monde",
+            "lock_voice_locked_everyone": ":white_check_mark: Tous les canaux audio sont maintenant fermés à tout le monde",
             "lock_voice_locked_role": ":white_check_mark: Tous les canaux audio sont maintenant fermés pour {role}",
             "lock_cat_locked_everyone": ":white_check_mark: Toutes les catégories sont maintenant fermées à tout le monde",
             "lock_cat_locked_role": ":white_check_mark: toutes les catégories sont désormais des catégories pour {role}",
@@ -407,7 +404,7 @@
             "hide_voice_hidden_everyone": ":white_check_mark: Tous les canaux audio sont maintenant masqués pour tout le monde",
             "hide_voice_hidden_role": ":white_check_mark: Tous les canaux audio sont maintenant masqués pour {role}",
             "hide_cat_hidden_everyone": ":white_check_mark: Toutes les catégories sont maintenant masquées pour tout le monde",
-            "hide_cat_hidden_role":":white_check_mark: Tous les catégories sont maintenant masqués pour {role}",
+            "hide_cat_hidden_role": ":white_check_mark: Tous les catégories sont maintenant masqués pour {role}",
             "hide_stage_hidden_everyone": ":white_check_mark: Tous les canaux d'événements sont désormais masqués pour tout le monde",
             "hide_stage_hidden_role": ":white_check_mark: Tous les canaux d'événements sont désormais masqués pour {role}",
             "show_showed_everyone": ":white_check_mark: {channel} est maintenant visible par tout le monde",
@@ -491,7 +488,7 @@
             "trust_max_free": ":x: Vous avez atteint le nombre maximum de membres de confiance ({max}) pour la version gratuite!\n\nPour vous abonner à la version Prime et obtenir plus de fonctionnalités [Cliquez ici]({link})",
             "trust_max_prime": ":x: Vous avez atteint le nombre maximum de membres de confiance ({max}) pour la version prime!",
             "trust_added": ":white_check_mark: {member} a été ajouté en tant que membre de confiance!",
-            "trusted_list": "Voici la liste des membres de confiance de votre serveur :\n\n{list}\n\n- Total Trusted : {total}",
+            "trusted_list": "Voici la liste des membres de confiance de votre serveur :\n\n{list}\n\n- Total Trusted : {total}",
             "activites_with_friends": "avec vos amis",
             "activites_watch": "Regarder",
             "activites_play": "Joue",
