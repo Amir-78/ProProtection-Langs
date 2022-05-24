@@ -115,7 +115,8 @@
             "cmd_owner_or_trusted_only": "هذا الأمر لمالك الخادم والأعضاء الموثوق بهم فقط.",
             "cmd_no_permissions": "ليس لديك صلاحيات `{permissions}` لاستخدام هذا الأمر!",
             "cmd_voice_connection_required": ":x: يجب أن تكون في روم صوتي لاستخدام هذا الأمر!",
-            "cannot_find_member": ":x: لا يمكنني العثور على هذا العضو"
+            "cannot_find_member": ":x: لا يمكنني العثور على هذا العضو",
+            "wrong_id": ":x: لقد ادخلت أيدي غير صحيح"
         },
         "en": {
             "cmd_err": ":x: - Error while running this command!",
@@ -125,7 +126,8 @@
             "cmd_owner_or_trusted_only": "This command is for the server owner and trusted members only.",
             "cmd_no_permissions": "You don't have permissions `{permissions} `to use this command!",
             "cmd_voice_connection_required": ":x: You must be in an voice channel to use this command!",
-            "cannot_find_member": ":x: I can't find this member"
+            "cannot_find_member": ":x: I can't find this member",
+            "wrong_id": ":x: You entered an incorrect ID"
         },
         "tr": {
             "cmd_err": ":x: - Bu komut çalıştırılırken hata oluştu!",
@@ -135,7 +137,8 @@
             "cmd_owner_or_trusted_only": "Bu komut yalnızca sunucu sahibi ve güvenilir üyeler içindir.",
             "cmd_no_permissions": "Bu komutu kullanmak için `{permissions}` izniniz yok!",
             "cmd_voice_connection_required": ":x: Bu komutu kullanmak için bir ses kanalında olmalısınız!",
-            "cannot_find_member": ":x: bu üyeyi bulamıyorum"
+            "cannot_find_member": ":x: bu üyeyi bulamıyorum",
+            "wrong_id": ":x: Yanlış bir kimlik girdiniz"
         }
     },
     "buttons": {
