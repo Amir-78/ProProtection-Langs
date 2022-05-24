@@ -36,7 +36,7 @@
             ]
         },
         "fr": {
-            "to_subs": "**Pour vous abonner à la version prime et obtenir les fonctionnalités suivantes, **[Cliquez ici] ({link}})",
+            "to_subs": "**Pour vous abonner à la version prime et obtenir les fonctionnalités suivantes, **[Cliquez ici]({link}})",
             "features": [
                 {
                     "name": "🛡️ Membres de confiance",
@@ -55,7 +55,7 @@
                 },
                 {
                     "name": "🔧 Récupération automatique",
-                    "value": "Vous pourrez activer la fonction de restauration automatique, qui renverra tout rang ou ROM qui a été supprimé tel qu'il était avant.",
+                    "value": "Vous pourrez activer la fonction de restauration automatique, qui renverra tout rang ou Chaine qui a été supprimé tel qu'il était avant.",
                     "inline": false
                 },
                 {
@@ -160,7 +160,7 @@
             "cmd_owner_only": "Ceci est réservé au propriétaire du serveur.",
             "cmd_owner_or_trusted_only": "Ceci est réservé au propriétaire du serveur et aux membres de confiance.",
             "cmd_no_permissions": "Vous n'avez pas les permissions `{permissions}` pour utiliser cette commande!",
-            "cmd_voice_connection_required": ":x: Vous devez être dans une ROM audio pour utiliser cette commande!",
+            "cmd_voice_connection_required": ":x: Vous devez être dans une Chaîne audio pour utiliser cette commande!",
             "cannot_find_member": ":x: Je ne trouve pas ce membre"
         },
         "en": {
@@ -498,6 +498,7 @@
             "invite_add_me": "Invitez-moi d'ici!",
             "invite_join_support": "Rejoindre le serveur d'assistance!",
             "lang_not_selected": "Aucune langue sélectionnée",
+            "vote_me": "Vote",
             "lang_select_lang": "**Choisir la langue!**",
             "clear_cleared": ":white_check_mark: {size} les messages ont été effacés!",
             "help_description": "Ceci est la liste des commandes pour le bot",
